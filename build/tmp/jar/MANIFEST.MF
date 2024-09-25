@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: pishock
-Specification-Vendor: pishocksareus
-Specification-Version: 1
-Implementation-Title: PiShock Mod 1.19
-Implementation-Version: 1.0.0
-Implementation-Vendor: pishocksareus
-Implementation-Timestamp: 2023-09-05T15:16:09+0000
-
