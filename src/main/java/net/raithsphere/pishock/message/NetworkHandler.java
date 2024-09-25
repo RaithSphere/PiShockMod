@@ -1,6 +1,6 @@
 package net.raithsphere.pishock.message;
 
-import net.raithsphere.pishock.config.PiShockModCommonConfigs;
+import net.raithsphere.pishock.config.CommonConfig;
 import net.raithsphere.pishock.pishock;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -29,26 +29,26 @@ public class NetworkHandler {
         if (!isCooldownOk())
             return;
 
-        if (Minecraft.getInstance().player.isDeadOrDying() && !PiShockModCommonConfigs.TRIGGER.get())
+        if (Minecraft.getInstance().player.isDeadOrDying() && !CommonConfig.TRIGGER.get())
             return;
 
         millis = new Date();
-        millis.setSeconds(millis.getSeconds() + PiShockModCommonConfigs.COOLDOWN.get());
+        millis.setSeconds(millis.getSeconds() + CommonConfig.COOLDOWN.get());
 
-        byte mode = PiShockModCommonConfigs.MODE.get();
+        byte mode = CommonConfig.MODE.get();
         double m0 = (damage / max) * 100f;
         double m1 = ((max - now) / max) * 100f;
 
         double intensity = mode == 0 ? m0 : m1;
 
         if (Minecraft.getInstance().player.isDeadOrDying())
-            intensity = PiShockModCommonConfigs.DEATH_INTENSITY.get();
+            intensity = CommonConfig.DEATH_INTENSITY.get();
 
         try {
             HashMap<String, Object> args = new HashMap<>();
-            args.put("Username", PiShockModCommonConfigs.USERNAME.get());
-            args.put("Code", PiShockModCommonConfigs.CODE.get());
-            args.put("ApiKey", PiShockModCommonConfigs.API_KEY.get());
+            args.put("Username", CommonConfig.USERNAME.get());
+            args.put("Code", CommonConfig.CODE.get());
+            args.put("ApiKey", CommonConfig.API_KEY.get());
             args.put("Op", 0);
             args.put("Name", "MineCraft");
             args.put("Duration", 1);

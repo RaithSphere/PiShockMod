@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "net/raithsphere/pishock/mixin/UpdatePlayerPacket": {
+      "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V": "Lnet/minecraft/network/protocol/game/ClientboundSetHealthPacket;m_5797_(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V"
+    },
+    "net/raithsphere/pishock/mixin/ExitGuiMixin": {
+      "createPauseMenu": "Lnet/minecraft/client/gui/screens/PauseScreen;m_96338_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/raithsphere/pishock/mixin/UpdatePlayerPacket": {
+        "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V": "Lnet/minecraft/network/protocol/game/ClientboundSetHealthPacket;m_5797_(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V"
+      },
+      "net/raithsphere/pishock/mixin/ExitGuiMixin": {
+        "createPauseMenu": "Lnet/minecraft/client/gui/screens/PauseScreen;m_96338_()V"
+      }
+    }
+  }
+}

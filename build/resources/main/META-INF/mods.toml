@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="pishock"
-version="1.20.1-1.0.0"
+version="1.19.1-1.0.0"
 displayName="PiShock Addon"
 logoFile="examplemod.png"
 credits="https://pishock.com/"
@@ -23,6 +23,6 @@ side="CLIENT"
 [[dependencies.pishock]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.19,1.21)"
+versionRange="[1.19,1.20)"
 ordering="NONE"
 side="CLIENT"

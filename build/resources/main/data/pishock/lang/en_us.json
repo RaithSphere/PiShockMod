@@ -1,4 +1,5 @@
 {
+  "modname": "PiShock Mod",
   "options.mode": "Request Mode",
   "options.triggerondeath": "Request Triggered on death"
 }

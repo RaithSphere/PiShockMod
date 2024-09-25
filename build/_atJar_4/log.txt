@@ -1,7 +1,7 @@
 Java Launcher: C:\Program Files\Eclipse Adoptium\jdk-17.0.12.7-hotspot\bin\java.exe
-Arguments: '--inJar, C:\Users\Raith\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.1.0\forge-1.20.1-47.1.0-injected.jar, --outJar, C:\Users\Raith\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.1.0_mapped_parchment_2023.09.03-1.20.1\forge-1.20.1-47.1.0_mapped_parchment_2023.09.03-1.20.1.jar, --logFile, accesstransform.log, --atFile, D:\PiShock Mod 1.20\build\_atJar_4\parent_at.cfg'
+Arguments: '--inJar, C:\Users\Raith\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.4-45.1.19\forge-1.19.4-45.1.19-injected.jar, --outJar, C:\Users\Raith\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.19.4-45.1.19_mapped_parchment_2023.06.26-1.19.4\forge-1.19.4-45.1.19_mapped_parchment_2023.06.26-1.19.4.jar, --logFile, accesstransform.log, --atFile, D:\PiShock Mod 1.19\build\_atJar_4\parent_at.cfg'
 Classpath:
  - C:\Users\Raith\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
-Working directory: D:\PiShock Mod 1.20\build\_atJar_4
+Working directory: D:\PiShock Mod 1.19\build\_atJar_4
 Main class: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================
