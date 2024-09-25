@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.raithsphere.pishock.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "pishock.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "UpdatePlayerPacket",
+    "ExitGuiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

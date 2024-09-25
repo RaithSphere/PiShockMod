@@ -1,0 +1,13 @@
+
+["Configs for PiShock"]
+	#Configuration PiShock
+	Mode = 0
+	Username = "RaithSphere"
+	Code = "26EDFE2FC0F"
+	TriggerOnDeath = true
+	ApiKey = "29cf665b-99c6-48dc-a408-598221ec36db"
+	#Range: 2 ~ 60
+	Cooldown = 2
+	#Range: 1.0 ~ 100.0
+	DeathIntensity = 80.0
+
